@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-nav {
+    position: fixed;
+    width: 1507px;
+    margin-top: -140px;
+}
+
+.navbar {
+
+    background-color: black;
+    height: 87px;
+}
+
+.navbar h6 {
+    color: white;
+    padding: 29px;
+    margin-left: 38px;
+    font-size: 24px;
+    font-weight: 300;
+    width: 180px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin-top: -62px;
+    margin-right: 29px;
+}
+
+.navbar-buttons li a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    word-spacing: 3px;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.navbar-buttons li a:hover {
+    background-color: darkslategray;
+}
+
+.heading-con {
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 140px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+}
+
+.heading-para {
+    position: absolute;
+    width: 600px;
+    height: 144px;
+    left: 38px;
+    top: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+
+    color: #000000;
+}
+
+.heading-LM {
+    width: 129px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+
+.heading-LM:hover {
+    background-color: brown;
+}
+
+.heading-img {
+    width: 729px;
+    height: 911px;
+    left: 922px;
+    top: 140px;
+    background: #D9D9D9;
+    margin-top: 140px;
+    margin-left: 700px;
+}
+
+.flex-images {
+    position: absolute;
+    width: 600px;
+    height: 94px;
+    left: 50px;
+    top: 1200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #000000;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 265px;
+    margin-bottom: 35px;
+}
+
+.flex-container>div {
+    background-color: rgb(241, 241, 241);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-left: 41px;
+}
+
+/* .flex-container div img {
+    src: url(https://img.freepik.com/premium-photo/heart-shaped-photography-sky-rain-forest-nature-background_56644-435.jpg?w=2000);
+} */
+.flex-img-adj{
+    width: 440px;
+    height: 440px;
+    margin-left: -20px;
+    margin-top: -20px
+    
+}
